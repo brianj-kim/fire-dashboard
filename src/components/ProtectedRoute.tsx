@@ -5,7 +5,7 @@ const ProtectedRoute = () => {
   const { user } = useAuthContext();
   const prevRoute = useLocation();
 
-  console.log( prevRoute.pathname );
+  //console.log( prevRoute.pathname );
 
   return user ? <Outlet /> : <Navigate to='/login' state={{from: prevRoute.pathname}} />;  
 };
