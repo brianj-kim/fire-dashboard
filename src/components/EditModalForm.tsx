@@ -33,7 +33,7 @@ export default ({ mid, editContent, toggle, onUpdate }: EditContentProps) => {
       </div>
       <input type="hidden" value={mid} />
       <textarea
-        rows={5} 
+        rows={7} 
         ref={contentRef} 
         className="border rounded-md p-3 my-4 shadow"
         required
