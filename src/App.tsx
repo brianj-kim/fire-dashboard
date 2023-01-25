@@ -8,7 +8,6 @@ import Profile from './pages/Profile';
 import Home from './pages/Home';
 
 export default () => {  
-  
 
   return (      
     <div>             
@@ -22,10 +21,8 @@ export default () => {
         <Route path='/memos' element={<ProtectedRoute />} >
           <Route path="/memos" element={<Memos />} />
         </Route>
-
-
         <Route path="*" element={<NotFound />} />                      
-      </Routes>    
+      </Routes>      
     </div>
   )
 }

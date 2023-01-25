@@ -26,7 +26,7 @@ export default () => {
 
       <button 
         type="button" 
-        className="border border-gray-300 hover:bg-gray-200 w-full p-4 mt-10 font-bold rounded-md" 
+        className="border border-gray-300 hover:bg-gray-100 w-full p-2 mt-6 font-bold rounded-md" 
         onClick={handleLogOut}
       >
         Logout
