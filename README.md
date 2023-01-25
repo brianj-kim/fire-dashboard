@@ -3,7 +3,7 @@ This project is for building a production level web application by utilizing Goo
 
 ## Reproducing the repo
 If you want to checkout the web application, you need to config your own firebase config and Google Authentication API config.
-The config file should be 'env.local' and the examples are below:
+The config file should be '.env.local' and the examples are below:
 
 <pre><code>
 VITE_API_KEY = 
